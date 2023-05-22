@@ -1,0 +1,379 @@
+html, body, h1{
+    margin:0;
+    padding:0;
+
+}
+
+nav{
+    width:100%;
+    height:80px;
+    background-color:black;
+   background-position: right;
+   background-size:cover;
+    padding-left:3%;
+    padding-right:3%;
+
+
+}
+
+header{
+    width:100%;
+    height:600px;
+   background-position: center;
+   background-size:cover;
+    padding-right:10%;
+    font-family: 'Lato', sans-serif;
+  
+}
+
+header h2{
+    font-size:35px;
+    margin-bottom:-4px;
+    font-family: 'Lato', sans-serif;
+    font-weight:300;
+}
+
+header h1{
+    font-size:55px;
+    margin-bottom:0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay{
+    width:90%;
+    height:450px;
+   padding-left:10%;
+    padding-top:150px;
+    
+}
+
+
+.logo{
+    width:200px;
+    float:left;
+
+}
+.logo-con{
+    width:100%;
+    text-align:center;
+    margin-top:15px;
+}
+
+.logo-con img{
+    width:80%;
+    
+}
+
+.logo-image{
+    width:200px;;
+    height:60px;
+    background-image: url("../assets/stream_logo_black.png");
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+    padding-top:140px;
+    padding-top:25px;
+    margin-top:15px;
+    float:left;
+    
+    
+   
+}
+
+.nav-con{
+    width:550px;
+    height:50px;
+    float:center;
+    margin-top:15px;
+    padding-top:25px;
+    color:white;
+
+}
+
+.nav-con ul{
+    list-style:none;
+
+}
+
+.nav-con li{
+    float:left;
+    height:26px;
+   color:white;
+    border-radius:5px;
+    padding-left:20px;
+    padding-right:20px;
+    margin-right:10px;
+    margin-left:10px;
+    padding-top:8px;
+
+}
+
+.nav-con li:hover{
+    background-color:white;
+    color:white;
+    cursor:pointer;
+
+}
+
+.btn-five{
+    width:255px;
+    height:50px;
+    border: 2px solid white;
+    padding-top:1px;
+    padding-left:5px;
+    border-radius:53px;
+    padding-bottom:10px;
+    float:right;
+    margin-top:-30px;
+    color:white;
+}
+
+.btn-five:hover{
+    cursor:pointer;
+
+}
+
+.btn-five .icon{
+    width:20px;
+    height:15px;
+   border-radius:50%;
+    text-align:center;
+    padding-top:10px;
+    color:white;
+    font-weight:bold;
+    float:left;
+}
+
+.btn-five .text{
+    margin-top:10px;
+    font-weight:bold;
+    float:left;
+    margin-left:20px;
+    text-align:center;
+}
+
+
+
+footer{
+    width:100%;
+    height:80px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding-left:3%;
+    padding-right:3%;
+
+}
+
+.logo-btm{
+    width:200px;
+    float:left;
+
+}
+.logo-con-btm{
+    width:100%;
+    text-align:center;
+    margin-top:15px;
+}
+
+.logo-con-btm img{
+    width:80%;
+    
+}
+
+.copyright{
+    width:200px;
+    float:left;
+
+}
+.copyright-con{
+    width:100%;
+    text-align:center;
+    margin-top:25px;
+}
+
+.copyright-con img{
+    width:20%;
+    
+}
+
+.social-media{
+    width:500px;
+    height:35px;
+    margin-top:15px;
+    float:right;
+    
+
+}
+
+.social1{
+    width:35px;
+    height:35px;
+    float:right;
+    margin:5px;
+    text-align:center;
+    padding-top:5px;
+    font-weight:bold;
+    color:white;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    float:center;
+    background-image: url("../assets/facebook.png");
+    background-position:center;
+    background-size:cover;
+
+}
+
+.social2{
+    width:35px;
+    height:35px;
+    float:right;
+    margin:5px;
+    text-align:center;
+    padding-top:5px;
+    font-weight:bold;
+    color:white;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    float:center;
+    background-image: url("../assets/insta.png");
+    background-position:center;
+    background-size:cover;
+}
+
+.social3{
+    width:35px;
+    height:35px;
+    float:right;
+    margin:5px;
+    text-align:center;
+    padding-top:5px;
+    font-weight:bold;
+    color:white;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    float:center;
+    background-image: url("../assets/twitter.jpg");
+    background-position:center;
+    background-size:cover;
+
+}
+
+.social4{
+    width:35px;
+    height:35px;
+    float:right;
+    margin:5px;
+    text-align:center;
+    padding-top:5px;
+    font-weight:bold;
+    color:white;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    float:center;
+    background-image: url("../assets/youtube.jpg");
+    background-position:center;
+    background-size:cover;
+
+}
+
+
+
+.social:hover{
+    background-color:white;
+color:white;
+cursor:pointer;
+}
+
+
+form{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 1px;
+    margin-left:800px;
+    margin-bottom: 800px;
+    background-color: grey;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:25px;
+    padding-bottom:40px;
+}
+
+.input-el{
+    width:90%;
+    height:35px;
+    margin-top:10px;
+    padding-left:15px;
+    border:none;
+    border-radius:20px;
+    color:white;
+    background-color: black;
+}
+
+select, button{
+    width:95% !important;
+}
+
+section{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: -290px;
+    margin-right:950px;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:5px;
+}
+
+.button-group{
+    width:400px;
+    height:50px;
+}
+
+.info{
+    
+        width:35px;
+        height:35px;
+        float:center;
+        margin:5px;
+        text-align:right;
+        padding-top:5px;
+        font-weight:bold;
+        color:black;
+        border-radius:50%;
+        padding-left:5px;
+        padding-bottom:1px;
+       
+        background-image: url("../assets/email_icon.svg");
+        background-position:center;
+        background-size:cover;
+    
+
+        
+}
+.info2{
+    
+    width:35px;
+    height:35px;
+    float:center;
+    margin:5px;
+    text-align:right;
+    padding-top:5px;
+    font-weight:bold;
+    color:black;
+    border-radius:50%;
+    padding-left:5px;
+    padding-bottom:1px;
+    
+    background-image: url("../assets/phone_icon.svg");
+    background-position:center;
+    background-size:cover;
+
+
+}
+
+
